@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight'
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://stormwild.github.io/',
+  base: '/tested-tower',
   integrations: [
     starlight({
       title: 'My Docs',
